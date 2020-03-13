@@ -7,17 +7,3 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me to add</button>
 <button class="btn btn-primary" @onclick="DecrementCount">Click me to subtract</button>
 
-@code {
-    private int currentCount = 0;
-    private string fontFamily = "Verdana";
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-
-    private void DecrementCount()
-    {
-        currentCount--;
-    }
-}
